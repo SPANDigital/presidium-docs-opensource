@@ -1,0 +1,8 @@
+.DS_Store
+.hugo_build.lock
+public
+themes
+resources/
+*.zip
+.obsidian/
+go.sum

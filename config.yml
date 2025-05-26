@@ -1,0 +1,63 @@
+languageCode: en-us
+title: "Presidium"
+copyright: SPAN Digital
+baseUrl: /
+assetDir: static
+pluralizelisttitles: false
+enableGitInfo: false
+markup:
+  goldmark:
+    renderer:
+      Unsafe: true
+  highlight:
+    style: github
+params:
+  logo: /images/logo.png
+  enterprise_key: presidium-docs-opensource
+  lazyLoad: false
+sectionPagesMenu: ""
+menu:
+  Main:
+    - identifier: overview
+      name: Overview
+      url: /
+      weight: 10
+    - identifier: key-concepts
+      name: Key Concepts
+      url: /key-concepts/
+      weight: 20
+    - identifier: getting-started
+      name: Getting Started
+      url: /getting-started/
+      weight: 30
+    - identifier: presidium-basics
+      name: Presidium Basics
+      url: /presidium-basics/
+      weight: 40
+    - identifier: best-practices
+      name: Best Practices
+      url: /best-practices/
+      weight: 70
+outputFormats:
+  MenuIndex:
+    baseName: menu
+    mediaType: application/json
+  SearchMap:
+    baseName: searchmap
+    mediaType: application/json
+outputs:
+  home:
+    - HTML
+    - RSS
+    - MenuIndex
+    - SearchMap
+module:
+  imports:
+    - path: github.com/spandigital/presidium-styling-base
+    - path: github.com/spandigital/presidium-layouts-base
+enableInlineShortcodes: true
+frontmatter:
+  lastmod:
+    - lastmod
+    - :fileModTime
+    - :default
