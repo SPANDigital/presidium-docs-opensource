@@ -34,11 +34,12 @@ Defines the formats to be generated when building the module. All the necessary 
 Defines what parts of the site use specific output formats. As with `outputformats`, the necessary setup is already done by SPAN.
 
 #### `module` Section
-Typically contains only a subsection called `imports`, which brings in styling and layouts and, optionally, other externally-stored resources. For example: 
+Enables importing other modules, typically styling and layouts--which are actually Hugo modules. For example: 
 ```  imports:
   - path: github.com/spandigital/presidium-styling-base
   - path: github.com/spandigital/presidium-layouts-base
 ```
+Other externally-stored resources can also be imported using this section.
 
 #### `frontmatter` Section
 Defines what frontmatter fields are available in articles, as well as the required data type for each field and whether the field is required or not.

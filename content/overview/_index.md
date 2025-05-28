@@ -3,7 +3,9 @@ title: Overview
 url: /
 ---
 
-Presidium is an opensource set of writing tools and themes that extends the functionality of the Hugo static site generator. It is specifically tailored for creating and maintaining software documentation for Agile teams and their users. Its static nature simplifies publication, enabling you to host your documentation swiftly and cost-effectively on platforms like GitHub Pages, easily integrating into your continuous integration pipeline.
+Presidium is an opensource set of writing tools and themes that extends the functionality of Hugo. 
+
+Hugo is a static site generator; Presidium builds on it by adding structure and tooling specifically for documentation. It is specifically tailored for creating and maintaining software documentation for Agile teams and their users. Its static nature simplifies publication, enabling you to host your documentation swiftly and cost-effectively on platforms like GitHub Pages, easily integrating into your continuous integration pipeline.
 
 Presidium empowers Agile teams to effectively evangelize, explain, and support solutions for developers and users, promoting correct usage and successful adoption of the solution. Unlike unstructured wikis or the ephemeral knowledge of Slack channels, Presidium offers a structured approach that leverages the precision of predefined article templates and an intuitive menu structure.
 
