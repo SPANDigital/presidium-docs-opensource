@@ -10,7 +10,7 @@ Folders:
 * `content`: Holds the Markdown files that are the content of the docsite, and the  subfolders that contribute to determining the docsite structure
 * `static`: Contains assets, like images, that are unchanging and used in many articles, such as logos and badges. (Images used in only one or a few articles should be stored along with the articles in the `content` folder.)
 
-File: [config.yml]({{< ref "presidium-basics/structuring-content/#config.yml" >}}): Defines the module's navigational structure, along with global settings like the module title, base URL, layouts, and styling.
+File: [config.yml]({{< ref "presidium-basics/structuring-content/#configyml" >}}): Defines the module's navigational structure, along with global settings like the module title, base URL, layouts, and styling.
 
 **Items You'll Access Less**
 
