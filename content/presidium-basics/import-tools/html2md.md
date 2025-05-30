@@ -28,7 +28,7 @@ Params:
 * `dest`: The path to the directory where the converted Markdown files are saved.
 * `flags`:
     * ` -d, --debug`: Enable debug logging
-    * `--headers <strings>`: Article header tags (default is `h1,h2`])
+    * `--headers <strings>`: Article header tags (default is `h1,h2`)
     * `--select <string>:` The part of the page to select and convert (default is `body`)
 
 
