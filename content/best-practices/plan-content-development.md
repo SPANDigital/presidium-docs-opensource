@@ -22,5 +22,5 @@ The most important planning tasks are:
 * Identifying the scope of your documentation efforts
 * Understanding the needs of your audience.
 
-Presidium [module templates]({{< ref "key-concepts/#module-tempalte" >}}) provide  a set of standard sections that are commonly used in various documentation types. 
+Presidium [module templates]({{< ref "key-concepts/#module-template" >}}) provide  a set of standard sections that are commonly used in various documentation types. 
 You can use this framework when starting to scope your project.
