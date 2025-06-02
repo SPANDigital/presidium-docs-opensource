@@ -68,10 +68,10 @@ Also helpful:
 
     For the use of the `weight` variable, see [Ordering Items]({{<ref "/presidium-basics/structuring-content/#ordering-items">}}).
 
-2. Create content Using Markdown:
+2. Create content using Markdown:
     - Add articles and directories in the `content` directory. Use clear filenames and directories that reflect the content structure:
       ```bash
-      hugo new content/overview/introduction.md
+      hugo new content /overview/introduction.md
       ```
     - Edit articles using your text editor, maintaining consistency in keeping with project guidelines.
     - Add any desired image files to the directory containing the article they are used in.
