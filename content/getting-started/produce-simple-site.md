@@ -21,12 +21,12 @@ Also helpful:
       /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
       ```
 
-3. Install Presidium and Hugo:
+2. Install Presidium and Hugo:
       ```bash
       brew install SPANDigital/tap/presidium
       brew install hugo
       ```
-4. Optionally, [install Golang](https://go.dev/doc/install). This is required only if you are building from source.
+3. Optionally, [install Golang](https://go.dev/doc/install). This is required only if you are building from source.
 
 #### Run Presidium
 1. Initialize the project:
