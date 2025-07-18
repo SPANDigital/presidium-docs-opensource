@@ -14,10 +14,8 @@ Installation methods are listed in order of preference:
 
 This requires [homebrew](https://brew.sh/) to be installed.
 
-```shell
-brew tap SPANDigital/homebrew-tap
-brew update
-brew install rst2md
+```bash
+brew install SPANDigital/tap/rst2md
 ```
 
 #### Via go install (for go developers)

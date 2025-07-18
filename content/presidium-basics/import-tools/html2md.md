@@ -10,18 +10,15 @@ Install from Homebrew:
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 ```
-Add SPAN’s Homebrew tap:
-```
-brew tap SPANDigital/homebrew-tap https://github.com/SPANDigital/homebrew-tap.git
-```
+
 Install html2md:
 ```
-brew install html2md
+brew install SPANDigital/tap/html2md
 ```
+
 ### Usage
 
 `html2md convert [source] [dest] [flags]`
-
 
 Params:
 * `source`: The URL of the website or the path to the local HTML file(s).

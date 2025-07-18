@@ -7,18 +7,12 @@ The following tools are required to use Presidium:
 
 1. Install Homebrew
 
-    ```
+    ```bash
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
-1. Add the Presidium Tap
-
-    ```
-    brew tap SPANDigital/homebrew-tap git@github.com:SPANDigital/homebrew-tap.git
-    ```
-
-1. Install Presidium
+2. Install Presidium
    
-   ```
-   brew install presidium
-   ```
+    ```bash
+    brew install SPANDigital/tap/presidium
+    ```
