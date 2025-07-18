@@ -8,8 +8,9 @@ weight: 4
 
 ## Install
 
-brew tap SPANDigital/homebrew-tap https://github.com/SPANDigital/homebrew-tap.git
-brew install presidium-json-schema
+```bash
+brew install SPANDigital/tap/presidium-json-schema
+```
 
 ## Usage
 
